@@ -20,9 +20,9 @@ const Home = () => {
 
     const element = document.querySelector('.aiBot');
     window.watsonAssistantChatOptions = {
-        integrationID: "92d2807e-cf39-4bbd-9a9d-9cf7742ad786", // The ID of this integration.
+         integrationID: "92d2807e-cf39-4bbd-9a9d-9cf7742ad786", // The ID of this integration.
         region: "eu-gb", // The region your integration is hosted in.
-        serviceInstanceID: "89a29d61-8d4c-48d5-bc53-1b64395a72f6", // The ID of your service instance.
+        se   serviceInstanceID: "89a29d61-8d4c-48d5-bc53-1b64395a72f6", // The ID of your service instance.
         element: element,
         showLauncher: false,
         onLoad: function (instance) {
@@ -52,7 +52,8 @@ const Home = () => {
     };
     setTimeout(function () {
         const t = document.createElement('script');
-        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+         t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+
       
     
         document.head.appendChild(t);
